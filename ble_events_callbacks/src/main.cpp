@@ -19,7 +19,7 @@ class MyServerCallbacks: public BLEServerCallbacks {
 
 void setup() {
   Serial.begin(115200);
-  BLEDevice::init("ESP32-WithCallback");
+  BLEDevice::init("ESP32-WithCallbackJarneH");
 
   BLEServer *pServer = BLEDevice::createServer();
   
