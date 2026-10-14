@@ -13,7 +13,7 @@ BLECharacteristic *pHumCharacteristic;
 
 void setup() {
   Serial.begin(115200);
-  BLEDevice::init("ESP32-WeatherStation");
+  BLEDevice::init("ESP32-WeatherStation-Jarne");
 
   BLEServer *pServer = BLEDevice::createServer();
 
